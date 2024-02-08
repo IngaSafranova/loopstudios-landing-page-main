@@ -17,10 +17,56 @@
       href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./script/main.js" defer></script>
     <title>Frontend Mentor | Loopstudios landing page</title>
   </head>
-  <body class="uppercase">
-    About Careers Events Products Support Immersive experiences that deliver The
+  <body class="font-serif text-main">
+    <div class="relative">
+      <picture>
+        <source
+          media="(min-width:768px )"
+          srcset="./images/desktop/image-hero.jpg"
+        />
+        <img src="./images/mobile/image-hero.jpg" alt="" srcset="" />
+      </picture>
+      <header class="absolute top-0 w-screen">
+        <section class="max-w-5xl md:mx-auto flex  justify-between py-9 px-6 items-start">
+        <img class="justify-start" src="./images/logo.svg" alt="" />
+        <button  id="mobile-toggle" class="md:hidden cursor-pointer">
+          <img id="hamburger" src="./images/icon-hamburger.svg" alt="">
+         
+        </button>
+        <nav class="hidden text-white md:space-x-6 md:block" aria-label="main">
+          
+          <a href="./index.html"></a> About</a>
+      <a href="#"></a> Careers</a>
+          <a href="#"></a>Events</a>
+            <a href="#"></a>  Products</a>
+          <a href="#"></a> Support</a>
+      
+      </nav>
+      </section>
+      <section id="mobile" >
+        <img class="justify-start" src="./images/logo.svg" alt="" />
+        <button>
+          <img src="./images/icon-close.svg" alt="">
+        </button>
+<nav class=" text-white md:space-x-6 md:block" aria-label="main">
+          
+  <a href="./index.html"></a> About</a>
+<a href="#"></a> Careers</a>
+  <a href="#"></a>Events</a>
+    <a href="#"></a>  Products</a>
+  <a href="#"></a> Support</a>
+
+</nav>
+
+      </section>
+      </header>
+    </div>
+
+    Immersive experiences that deliver The
     leader in interactive VR Founded in 2011, Loopstudios has been producing
     world-class virtual reality projects for some of the best companies around
     the globe. Our award-winning creations have transformed businesses through
@@ -29,10 +75,10 @@
     The curiosity Make it fisheye About Careers Events Products Support © 2021
     Loopstudios. All rights reserved.
 
-    <div class="text-8xl text-center text-blue-600">
+    <div class="text-center">
       Challenge by
       <a
-        class="font-serif text-9xl"
+        class="font-sans text-indigo-900"
         href="https://www.frontendmentor.io?ref=challenge"
         target="_blank"
         >Frontend Mentor</a
