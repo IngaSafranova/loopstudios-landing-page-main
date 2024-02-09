@@ -21,7 +21,7 @@
     <script src="./script/main.js" defer></script>
     <title>Frontend Mentor | Loopstudios landing page</title>
   </head>
-  <body class="font-serif text-main">
+  <body id="body" class="font-serif text-main">
     <div class="relative">
       <picture>
         <source
@@ -30,43 +30,36 @@
         />
         <img src="./images/mobile/image-hero.jpg" alt="" srcset="" />
       </picture>
-      <header class="absolute top-0 w-screen">
-        <section class="max-w-5xl md:mx-auto flex  justify-between py-9 px-6 items-start">
-        <img class="justify-start" src="./images/logo.svg" alt="" />
+      <header id="header" class="absolute top-0 w-screen  md:bg-transparent">
+        <section class="max-w-5xl md:mx-auto flex  justify-between py-12 px-6 items-start">
+          <div>
+          <svg class="icon"  width="146" height="24">
+            <use xlink:href="./images/newLogo.svg#logo"></use>
+          </svg>
+        </div>
         <button  id="mobile-toggle" class="md:hidden cursor-pointer">
           <img id="hamburger" src="./images/icon-hamburger.svg" alt="">
-         
+         <img  id="close" class="hidden opacity-65" src="./images/icon-close.svg" alt="">
         </button>
-        <nav class="hidden text-white md:space-x-6 md:block" aria-label="main">
+      </section>
+        <nav id="navbar"  class="text-white cursor-pointer opacity-65 font-sans font-thin uppercase px-6 transform translate-x-full text-2xl md:flex  md:flex-row md:translate-x-0 md:text-white md:font-serif md:font-normal md:normal-case md:gap-2 md:absolute md:top-0 md:right-0 md:py-11 md:px-[8.5rem] md:text-xl" aria-label="main">
           
-          <a href="./index.html"></a> About</a>
-      <a href="#"></a> Careers</a>
-          <a href="#"></a>Events</a>
-            <a href="#"></a>  Products</a>
-          <a href="#"></a> Support</a>
+          <a id="nav-link1" class="nav-link block py-3  cursor-pointer"  href="#hero"> About</a>
+      <a class="nav-link block py-3 cursor-pointer" href="#"> Careers</a>
+          <a class="nav-link block py-3 cursor-pointer" href="#">Events</a>
+            <a class="nav-link block py-3 cursor-pointer"  href="#">  Products</a>
+          <a class="nav-link block py-3 cursor-pointer"  href="#"> Support</a>
       
       </nav>
-      </section>
-      <section id="mobile" >
-        <img class="justify-start" src="./images/logo.svg" alt="" />
-        <button>
-          <img src="./images/icon-close.svg" alt="">
-        </button>
-<nav class=" text-white md:space-x-6 md:block" aria-label="main">
-          
-  <a href="./index.html"></a> About</a>
-<a href="#"></a> Careers</a>
-  <a href="#"></a>Events</a>
-    <a href="#"></a>  Products</a>
-  <a href="#"></a> Support</a>
-
-</nav>
-
-      </section>
+     
       </header>
+      <h1 id="hero" class="absolute  top-0 my-56 py-6 pl-6 pr-12 uppercase w-auto h-auto border text-white text-4xl font-thin font-sans mx-6 md:w-[35rem] md:ml-[11rem] md:text-5xl md:pr-20" > Immersive experiences
+      that deliver</h1>
     </div>
-
-    Immersive experiences that deliver The
+<section>
+  <img src="./images/mobile/image-interactive.jpg" alt="">
+</section>
+    The
     leader in interactive VR Founded in 2011, Loopstudios has been producing
     world-class virtual reality projects for some of the best companies around
     the globe. Our award-winning creations have transformed businesses through
