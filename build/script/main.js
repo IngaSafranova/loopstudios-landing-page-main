@@ -8,13 +8,15 @@ const header = document.getElementById("header");
 const body = document.getElementById("body");
 const h1 = document.getElementById("hero");
 const navLinks = document.querySelectorAll(".nav-link");
-const navLink1 = document.getElementById('nav-link1')
+const main = document.getElementById('main')
 console.log(navLinks);
 
 const toggle = () => {
   nav.classList.toggle("translate-x-full");
    h1.classList.toggle("-z-20");
+   main.classList.toggle("bg-black");
   body.classList.toggle("bg-black");
+  nav.classList.toggle("h-full");
   header.classList.toggle("bg-black");
   header.classList.toggle("h-full");
   hamburger.classList.toggle("hidden");
