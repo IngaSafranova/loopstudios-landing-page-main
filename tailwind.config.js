@@ -14,6 +14,7 @@ module.exports = {
         serif: ["Alata", "sans-serif"],
         sans: ["Josefin Sans", "sans-serif"],
       },
+      
     },
   },
   plugins: [],
