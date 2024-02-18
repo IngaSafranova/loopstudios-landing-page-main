@@ -109,17 +109,19 @@
       </div>
     </section>
     <section class="px-6 flex flex-col gap-4 mx-auto my-10  lg:pl-[11rem] lg:pr-[5.5rem] lg:flex-none lg:relative">
-      <h2 class="uppercase font-sans text-4xl text-center w-fit mb-10 lg:text-left">
+      <h2 class="uppercase font-sans text-4xl text-center mx-auto w-fit mb-10 lg:mx-0 lg:text-left ">
         Our creations
       </h2>
       <button
-        class="uppercase font-serif font-bold border-2 border-black w-fit py-1 px-8 tracking-[0.5rem] order-last mx-auto mt-4 mb-20 lg:order-none lg:h-fit lg:mb-0 lg:mx-0 lg:absolute lg:top-0 lg:right-24"
+        class="uppercase font-serif font-bold border-2 border-black w-fit py-1 px-8 tracking-[0.5rem] order-last mx-auto mt-4 mb-20 lg:order-none lg:h-fit lg:mb-0 lg:mx-0 lg:absolute lg:top-0 lg:right-24 hover:bg-black hover:text-white"
       >
         See all
       </button>
       <div class="flex flex-col gap-4 mx-auto lg:order-last lg:grid lg:grid-cols-4 lg:grid-flow-row-dense lg:w-full">
-        <div class="relative">
-          <picture class="mx-auto">
+        <div class="relative cursor-pointer group ">
+          <picture
+            class="mx-auto  brightness-[65%] group-hover:opacity-20 "
+          >
             <source
               media="(min-width:1025px)"
               srcset="./images/desktop/image-deep-earth.jpg"
@@ -132,14 +134,14 @@
             />
           </picture>
           <p
-            class="uppercase font-sans text-2xl w-6 text-white absolute z-20 bottom-2 left-4 "
+            class="uppercase font-sans text-2xl w-6 text-white group-hover:text-black absolute z-20 bottom-2 left-4 lg:bottom-7 lg:left-12"
           >
-            Deep earth
+            Deep Earth
           </p>
         </div>
-        <div class="relative  bg-black  w-fit h-auto bg-blend-multiply">
+        <div class="relative cursor-pointer group ">
           <picture
-            class="mx-auto   "
+            class="mx-auto  brightness-[65%] group-hover:opacity-20 "
           >
             <source
               media="(min-width:1025px)"
@@ -153,13 +155,13 @@
             />
           </picture>
           <p
-            class="uppercase font-sans text-2xl w-6 text-white absolute z-20 bottom-2 left-4"
+            class="uppercase font-sans text-2xl w-6 text-white group-hover:text-black  absolute z-20 bottom-2 left-4 lg:bottom-7 lg:left-12"
           >
             Night arcade
           </p>
         </div>
-        <div class="relative  bg-black  w-fit h-auto bg-blend-multiply">
-          <picture class="mx-auto ">
+        <div class="relative cursor-pointer group ">
+          <picture class="mx-auto brightness-[65%] group-hover:opacity-20">
             <source
               media="(min-width:1025px)"
               srcset="./images/desktop/image-soccer-team.jpg"
@@ -172,13 +174,13 @@
             />
           </picture>
           <p
-            class="uppercase font-sans text-2xl w-28 text-white absolute z-20 bottom-2 left-4"
+            class="uppercase font-sans text-2xl w-28 text-white group-hover:text-black  absolute z-20 bottom-2 left-4 lg:bottom-7 lg:left-12"
           >
           Soccer team VR
           </p>
         </div>
-        <div class="relative  bg-black  w-fit h-auto bg-blend-multiply">
-          <picture class="mx-auto ">
+        <div class="relative cursor-pointer group ">
+          <picture class="mx-auto brightness-[65%] group-hover:opacity-20">
             <source
               media="(min-width:1025px)"
               srcset="./images/desktop/image-grid.jpg"
@@ -191,13 +193,13 @@
             />
           </picture>
           <p
-            class="uppercase font-sans text-2xl w-6 text-white absolute z-20 bottom-2 left-4"
+            class="uppercase font-sans text-2xl w-6 group-hover:text-black  text-white absolute z-20 bottom-2 left-4 lg:bottom-7 lg:left-12"
           >
           The grid
           </p>
         </div>
-        <div class="relative  bg-black  w-fit h-auto bg-blend-multiply">
-          <picture class="mx-auto ">
+        <div class="relative cursor-pointer group ">
+          <picture class="mx-auto brightness-[65%] group-hover:opacity-20">
             <source
               media="(min-width:1025px)"
               srcset="./images/desktop/image-from-above.jpg"
@@ -210,13 +212,13 @@
             />
           </picture>
           <p
-            class="uppercase font-sans text-2xl w-48 text-white absolute z-20 bottom-2 left-4 "
+            class="uppercase font-sans text-2xl group-hover:text-black  w-48 text-white absolute z-20 bottom-2 left-4 lg:bottom-7 lg:left-12"
           >
           From up above VR
           </p>
         </div>
-        <div class="relative  bg-black  w-fit h-auto bg-blend-multiply">
-          <picture class="mx-auto ">
+        <div class="relative cursor-pointer group   ">
+          <picture class="mx-auto brightness-[65%] group-hover:opacity-20">
             <source
               media="(min-width:1025px)"
               srcset="./images/desktop/image-pocket-borealis.jpg"
@@ -229,13 +231,13 @@
             />
           </picture>
           <p
-            class="uppercase font-sans text-2xl w-6 text-white absolute z-20 bottom-2 left-4"
+            class="uppercase group-hover:text-black font-sans text-2xl w-6 text-white absolute z-20 bottom-2 left-4 lg:bottom-7 lg:left-12"
           >
           Pocket borealis 
           </p>
         </div>
-        <div class="relative  bg-black  w-fit h-auto bg-blend-multiply">
-          <picture class="mx-auto 
+        <div class="relative cursor-pointer group">
+          <picture class="mx-auto brightness-[65%] group-hover:opacity-20
          ">
             <source
               media="(min-width:1025px)"
@@ -249,13 +251,13 @@
             />
           </picture>
           <p
-            class="uppercase font-sans text-2xl w-6 text-white absolute z-20 bottom-2 left-4"
+            class="uppercase font-sans group-hover:text-black  text-2xl w-6 text-white absolute z-20 bottom-2 left-4 lg:bottom-7 lg:left-12"
           >
           The curiosity
           </p>
         </div>
-        <div class="relative  bg-black  w-fit h-auto bg-blend-multiply">
-          <picture class="mx-auto
+        <div class="relative cursor-pointer group  ">
+          <picture class="mx-auto brightness-[65%] group-hover:opacity-20
           ">
             <source
               media="(min-width:1025px)"
@@ -269,14 +271,46 @@
             />
           </picture>
           <p
-            class="uppercase font-sans text-2xl w-40 text-white absolute z-20 bottom-4 left-4"
+            class="uppercase font-sans group-hover:text-black  text-2xl w-40 text-white absolute z-20 bottom-4 left-4 lg:bottom-7 lg:left-12"
           >
           Make it fisheye 
           </p>
         </div>
       </div>
     </section>
-    About Careers Events Products Support © 2021 Loopstudios. All
+<footer class="bg-black">
+  <div>
+    <svg class="icon" width="146" height="24">
+      <use xlink:href="./images/newLogo.svg#logo"></use>
+    </svg>
+  </div>
+  <nav
+          id="footer-navbar"
+          class="text-white cursor-pointer "
+          aria-label="main"
+        >
+          <a
+            class="nav-link py-3 cursor-pointer hover:border-b"
+            href="#hero"
+          >
+            About</a
+          >
+          <a class="nav-link block py-3 cursor-pointer hover:border-b" href="#">
+            Careers</a
+          >
+          <a class="nav-link block py-3 cursor-pointer hover:border-b" href="#"
+            >Events</a
+          >
+          <a class="nav-link block py-3 cursor-pointer hover:border-b" href="#">
+            Products</a
+          >
+          <a class="nav-link block py-3 cursor-pointer hover:border-b" href="#">
+            Support</a
+          >
+        </nav>
+</footer>
+
+     © 2021 Loopstudios. All
     rights reserved.
 
     <div class="text-center">
